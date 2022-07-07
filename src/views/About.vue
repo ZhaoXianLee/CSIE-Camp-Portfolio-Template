@@ -14,6 +14,9 @@ const step = ref(0);
             class="mb-8 block text-2xl sm:text-3xl lg:text-4xl"
         />
 
-        <Typing v-if="step >= 1" @done="step++" text="Who am I?" />
+        <Typing v-if="step >= 1" @done="step++" text=" " />
+        <img
+            src="https://media.gq.com.tw/photos/628b2ec34824d010bb0b3cd4/1:1/w_360,h_360,c_limit/165306325038.jpeg"
+        />
     </div>
 </template>
